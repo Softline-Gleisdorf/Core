@@ -4,7 +4,7 @@ public abstract class AbstractMessageComposer implements MessageComposer {
 
 	@Override
 	public String composeMessage() {
-		return "Nachricht von " + getClass().getSimpleName();
+		return "Eine Nachricht von " + getClass().getSimpleName();
 	}
 
 }
